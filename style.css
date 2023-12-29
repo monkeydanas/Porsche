@@ -1,0 +1,153 @@
+.yababa{
+    height: 50px;
+    width: 50px;
+}
+header{
+    background: image(tfyuiyfgt);
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    
+}
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(./911st_6.jpg);
+}
+header .Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+header  .Navigation .logo {
+    width: 80px;
+    height: 80px;
+}
+header .Nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header .Nav-list .Nav-link {
+    list-style-type: none;
+}
+header .Nav-list .Nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto",Arial,sans-serif;
+    font-weight: 600;
+}
+header .Nav-list .Nav-link a:hover,
+header .Nav-list .Nav-link.active a {
+    color: #ababab;
+}
+.header {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 70%;
+    margin: auto;
+    padding-top: 120px;
+}
+.header img {
+    width: 40px;
+    height: 40px;
+}
+.header .Title {
+    font-size: 32px;
+    font-family: "Roboto",Arial,sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.header .paragraphs {
+    display: flex;
+    justify-content: space-between;
+}
+.header .paragraphs span {
+    width: 49%;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto",Arial,sans-serif;
+    color: #747474;
+    }
+    
+    
+    
+    
+    
+    .models {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        margin-top: 60px;
+    }
+    .models .car {
+        width: 31%;
+        height: 510px;
+        border-radius: 5px;
+        overflow: hidden;
+        border: 1px solid rgba(0,0,0,.03);
+        
+    }
+    .models .car:hover {
+        box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.329);
+        transition: box-shadow .2s ease 0s;
+        cursor: pointer;
+    }
+    .models .car img {
+        width: 100%;
+        height: 450px;
+    }
+    .models .car .desc {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .models .car .desc button {
+        background-color: black;
+        border: none;
+        padding: 7px 10px;
+        border-radius: 5px;
+        color: white;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .models .car .desc button:hover {
+        cursor: pointer;
+    }
+    .models .car .desc span {
+        color: #747474;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    
+footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: black;
+    
+}
+footer span {
+    color: white;
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 5px;
+}
+
